@@ -65,5 +65,20 @@ namespace Tyuiu.MironenkoSE.Sprint7.Project.V11.Lib
             }
             return max;
         }
+
+        public string[,] CreateMatrixFromFileCSV(string pathLoadTable)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SaveFileToPath(string pathTable, string[,] matrixTable)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string[,] RowsAddedInTable(string[,] matrixOldTable, int v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
